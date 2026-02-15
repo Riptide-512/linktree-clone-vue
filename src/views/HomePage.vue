@@ -14,7 +14,7 @@ const profile = ref({
     <!-- Profile Header-->
     <div class="mb-8 flex flex-col items-center text-center">
       <div
-        class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-green-500 shadow-lg shadow-green-600/20 sm:h-32 sm:w-32"
+        class="mb-4 h-24 w-24 overflow-hidden rounded-full border-4 border-blue-500 shadow-lg shadow-blue-600/20 sm:h-32 sm:w-32"
       >
         <img
           :src="profile.avatar"

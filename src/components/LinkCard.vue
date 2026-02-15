@@ -7,7 +7,7 @@
   >
     <!-- Icon Container-->
     <div
-      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-gray-700 text-green-400 transition-all duration-300 group-hover:scale-110 group-hover:bg-green-500 group-hover:text-white group-hover:shadow-xl group-hover:shadow-green-500/30"
+      class="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-gray-700 text-blue-400 transition-all duration-300 group-hover:scale-110 group-hover:bg-green-500 group-hover:text-white group-hover:shadow-xl group-hover:shadow-green-500/30"
     >
       <svg
         viewBox="0 0 24 24"
