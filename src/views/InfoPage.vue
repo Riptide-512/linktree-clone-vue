@@ -5,7 +5,7 @@ const bio = ref({
   name: 'Eric Sepulveda',
   avatar: 'https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Felix',
   about:
-    'I am a System Analyst and Student at South Texas College. I love to play video games, and passionate about learning new techologies.',
+    'I am a System Analyst II at UTRGV and Student at South Texas College. I love to play video games, and passionate about learning new techologies.',
   skills: ['JavaScript', 'Vue.js', 'Gaming', 'Cooking', 'Typescript'],
   email: 'esepulv9@southtexascollege.edu',
   location: 'McAllen, Texas',
