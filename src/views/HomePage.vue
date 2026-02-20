@@ -6,6 +6,29 @@ const profile = ref({
   name: 'Eric Sepulveda',
   slogan: 'Student and Gamer',
   avatar: 'https://api.dicebear.com/9.x/adventurer-neutral/svg?seed=Felix',
+  links: [
+    {
+      id: 1,
+      title: 'GitHub',
+      url: 'https://github.com/Riptide-512',
+      icon: 'code',
+      description: 'Check out my projects and repositories on GitHub.',
+    },
+    {
+      id: 2,
+      title: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/eric-sepulveda-879ba138a/',
+      icon: 'briefcase',
+      description: 'Connect with me professionally on LinkedIn.',
+    },
+    {
+      id: 3,
+      title: 'Project Bill Splitter',
+      url: 'https://expense-splitter-vue.esepulv9.workers.dev/',
+      icon: 'project',
+      description: 'View my personal projects of a bill splitter.',
+    },
+  ],
 })
 </script>
 
@@ -31,8 +54,12 @@ const profile = ref({
     <!-- Links Section -->
     <div class="flex w-full max-w-md flex-col gap-4">
       <LinkCard
-        v-for="x of [1, 2, 3]"
-        :key="x"
+        v-for="link in profile.links"
+        :key="link.id"
+        :title="link.title"
+        :url="link.url"
+        :description="link.description"
+        :icon="link.icon"
       />
     </div>
 
