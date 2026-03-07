@@ -28,6 +28,14 @@ const profile = ref({
       icon: 'project',
       description: 'View my personal projects of a bill splitter.',
     },
+
+    {
+      id: 4,
+      title: 'Anime Watchlist Randomizer',
+      url: 'https://anime-watchlist-randomizer.esepulv9.workers.dev/',
+      icon: 'video',
+      description: 'Watch some anime with watchlist randomizer.',
+    },
   ],
 })
 </script>
